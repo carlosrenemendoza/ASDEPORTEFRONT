@@ -1,0 +1,23 @@
+.circule{
+    width: 90px;
+    height: 93px;
+    border-radius: 50%;
+    background:#f8f6f600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-right: 60px;
+    border-style: dotted;
+    border-color: #e1d8d8;
+}
+
+
+.filepond--drop-label.filepond--drop-label label {
+    display: block;
+    margin: 0;
+    padding: .5em;
+    text-decoration: underline !important;
+    margin-left: 5.6rem!important;
+    font-weight: bold!important;
+}

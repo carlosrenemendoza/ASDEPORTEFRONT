@@ -1,0 +1,25 @@
+@media only screen and (min-width: 1686px) {
+  .totalCardInfo {
+    min-width: 10.8em;
+  }
+}
+
+@media only screen and (min-width: 1591px) and (max-width: 1685px){
+  .totalCardInfo {
+    min-width: 140px;
+  }
+}
+
+@media only screen and (min-width: 1443px) and (max-width: 1590px){
+  .totalCardInfo {
+    min-width: 126px;
+  }
+}
+
+.totalCardInfo {
+  min-height: 69px;
+}
+
+.bg-grayColor{
+  background-color: #545454;
+}

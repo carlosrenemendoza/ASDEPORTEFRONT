@@ -1,0 +1,22 @@
+
+/*=============================================
+=            Styles for components            =
+=============================================*/
+$padding: .2em;
+.si_button{
+  padding: $padding;
+  width: 10em;
+  text-align: center;
+  background-color: rgba(239, 241, 246, 0.39);
+  border-radius: .2em;
+  border: none;
+  &:hover{
+    -webkit-box-shadow: 0px 0px 3px 1px rgba(0,0,0,.1);
+    box-shadow: 0px 0px 3px 1px rgba(0,0,0,.1);
+    background-color: #EFF1F6;
+    padding: $padding;
+    border-radius: .2em;
+    cursor: pointer;
+    border: none;
+  }
+}

@@ -1,0 +1,35 @@
+// ? theme default
+// $theme: linear-gradient(to bottom, #0097dc -50%, #00558c 100%);
+
+/*=============================================
+=            Section Colors                   =
+=============================================*/
+
+$start:#001489;
+$end: #001489;
+
+// linear-gradient(to bottom, #314e70 0%, #0d182a 100%)
+
+/*=============================================
+=            Header Color                     =
+=============================================*/
+
+$header_color_s: $start;
+$header_color_e: $end;
+$header_color: linear-gradient(to bottom, $header_color_s 0%, $header_color_e 100%);
+
+
+/*=============================================
+=            Login Color                      =
+=============================================*/
+$login_color_s: $start;
+$login_color_e: $end;
+$login_color: linear-gradient(to bottom, $login_color_s 0%, $login_color_e 100%);
+
+
+/*=============================================
+=            Login Color                      =
+=============================================*/
+$table_color_s: $start;
+$table_color_e: $end;
+$table_color: linear-gradient(to bottom, $table_color_s 0%, $table_color_e 100%);

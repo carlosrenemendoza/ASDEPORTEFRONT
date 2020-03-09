@@ -1,0 +1,113 @@
+/**
+* Styles for clicked card
+*/
+._clickCard{
+  cursor: pointer!important;
+  transition: 0.3s !important;
+  &:hover{
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  &._cardSelected{
+    border: solid .1em #0277BD;
+  }
+}
+
+.hidden {
+  display: none;
+}
+
+// .container {
+//     width: 30em;
+//     overflow-x: overflow-x: scroll;;
+//     white-space: nowrap;
+// }
+._clickCard{
+  position: relative;
+}
+
+._close{
+  position: absolute;
+  top:0em;
+  left:91%;
+}
+._iconDelete{
+  background-color: rgba(209, 209, 209, 0.78);
+  // padding-top: -4em;
+  // border-radius: 15em;
+}
+
+.graphcardbody{
+  width: 100%;
+  height: 100%;
+  // max-height: 325px;
+  // max-width: 400px;
+  // min-width: 250px;
+  // min-height: 100px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.graphcarddeck{
+  // display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  margin-right: 1px;
+}
+
+.minWidth{
+  margin: 0.5em;
+  min-width: 6.0em;
+  display: inline-block;
+}
+
+.cardHorizontal{
+  margin: 10px;
+  display: inline-block;
+  box-sizing: border-box;
+  white-space: nowrap;
+}
+
+.containerCard{
+  overflow-y: auto;
+}
+
+.advancedSearchModal > button{
+  color: white !important;
+  opacity: 1 !important;
+}
+
+.modalFooterCenter {
+  justify-content: center !important;
+}
+
+::-webkit-datetime-edit-year-field:not([aria-valuenow]),
+::-webkit-datetime-edit-month-field:not([aria-valuenow]),
+::-webkit-datetime-edit-day-field:not([aria-valuenow]) {
+    display: none;
+    -webkit-appearance: none;
+    color: transparent;
+}
+
+// input[type=date]::-webkit-datetime-edit-text {
+//     -webkit-appearance: none;
+//     display: none;
+// }
+// input[type=date]::-webkit-datetime-edit-month-field{
+//     -webkit-appearance: none;
+//     display: none;
+// }
+// input[type=date]::-webkit-datetime-edit-day-field {
+//     -webkit-appearance: none;
+//     display: none;
+// }
+// input[type=date]::-webkit-datetime-edit-year-field {
+//     -webkit-appearance: none;
+//     display: none;
+// }
+
+@media only screen and (max-width: 1280px){
+  .minWidth {
+    min-width: 4.0em;
+  }
+}
+/* .graphcardsize{
+
+} */

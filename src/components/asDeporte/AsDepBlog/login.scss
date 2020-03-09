@@ -1,0 +1,25 @@
+._input{
+  background-color: rgba(0,0,0,.2);
+  border: 1px solid transparent;
+  color: #fff;
+  height: 3em;
+  margin: 1px 0 1em;
+  outline: none;
+  padding: 0 10px;
+  width: 55%;
+  &::placeholder{
+    color:rgba(212, 212, 212, 0.81);
+  }
+  &:focus{
+    border: 1px solid #fff;
+  }
+}
+
+._alert{
+  color: yellow;
+  height: 3em;
+  margin: 1px 0 1em;
+  outline: none;
+  padding: 0;
+  width: 55%;
+}
